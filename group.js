@@ -39,7 +39,7 @@ const authenticate = (req, res, next)=>{
     if (isAuthenticated) {
         next();
     } else {
-        res.status(401).send('Acess denied'
+        res.status(401).send('Acess denied')
     }
 };
 app.get('/', (req, res)=>{
