@@ -24,7 +24,7 @@ app.put('/user', (req,res)=>{
 });
 app.listen(4000)
 
-//DELETE METHOD: I sused to delete dat
+//DELETE METHOD: I sused to delete data
 app.delete('/', (req,res)=>{
     res.send('Get a DELETE request');
 });
