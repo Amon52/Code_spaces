@@ -11,7 +11,7 @@ app.get('/users', (req , res) => {
 app.listen(4000)
  //whenever there is a request at /users endpoint the response will be List of users.
 
-//POST METHOD:It is used to create new data on the server.
+//POST METHOD:It is used to create new data on the server
 app.post('/read', (req, res)=>{
     res.send('Get a POST request');
 });
