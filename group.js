@@ -18,7 +18,7 @@ app.post('/read', (req, res)=>{
 app.listen(4000)
 
 
-//PUT METHOD:Is used to update existing data on the server.
+//PUT METHOD:Is used to update existing data on the server
 app.put('/user', (req,res)=>{
     res.send('Get a PUT request');
 });
