@@ -2,7 +2,7 @@ EXPRESS.JS:
 
 Express.js is a minimal and flexible node.js web application framework that provides a robust set of features for web and mobile applications.
 
-Key Features:
+Key Feature:
 
 Express.js provides a simple way to handle HTTP requests and responses.
 It is responsible for routing requests and sending responses.
