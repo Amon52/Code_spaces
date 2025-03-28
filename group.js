@@ -31,7 +31,7 @@ app.delete('/', (req,res)=>{
 app.listen(4000)
 
 
-//Show how routing and middleware are used together to handle common web application tasks like user authentication or API endpoint creation.
+//Show how routing and middleware are used together to handle common we application tasks like user authentication or API endpoint creation.
 
 //middleware to check if user is authentiucated.
 const authenticate = (req, res, next)=>{
